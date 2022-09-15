@@ -10,7 +10,7 @@ import sqlite3
 
 root_path = os.path.dirname(os.path.realpath(__file__))
 logfile = root_path + '/telebot.log'
-token = 'bot_token_here'
+token = '1709981956:AAFuOu2bGcD0CriK8gwjzO6VQVm8i0pO_VI'
 bot = telebot.TeleBot(token)
 
 @bot.message_handler(commands = ['start'])
